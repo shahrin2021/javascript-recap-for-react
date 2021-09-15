@@ -54,5 +54,8 @@ console.log(x,y,p,q,t)
 /* shortcut string to number */
 
 
+const myNumber = "786";
 
+const isNumber = + myNumber ;
+console.log(typeof isNumber)
 

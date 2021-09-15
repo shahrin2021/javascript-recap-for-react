@@ -8,13 +8,15 @@ Truethy
 3.any number with out 0
 4.all string with out empty string
 5.empty object is truthy
+6.ture boolean
 
 falsey
 
 1.0 is a falsey
-2.emoty is falsey
+2.emoty string is falsey
 3.undefined
 4.null
+5.false boolean
 
 */
 
@@ -67,3 +69,7 @@ let p = 7;
                 console.log('is true')
             }else{
                 console.log('is false')}
+const isTrue = true ;
+                const showUser = ()=>console.log(521);
+
+                isTrue && showUser()
